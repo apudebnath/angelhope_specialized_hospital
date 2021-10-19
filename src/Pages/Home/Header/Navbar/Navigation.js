@@ -24,7 +24,8 @@ const Navigation = () => {
                         
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
-                            <Nav.Link as={Link} to="/pricing">Pricing</Nav.Link>
+                            <Nav.Link as={Link} to="/community">Community</Nav.Link>
+                            <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
                             {!user?.email ?<Nav.Link as={Link} to="/login">Login</Nav.Link>
                             :
                             <Button onClick={logOut} size='small'>Logout</Button>}

@@ -28,7 +28,6 @@ const Register = () => {
                         </Form.Group>
                         <h6 className="text-danger">{error}</h6>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                          <Form.Check type="checkbox" label="Check me out" />
                           <Link to='/login'>Already Register?</Link>
                         </Form.Group>
                         <Button className="px-5" variant="primary" type="submit">

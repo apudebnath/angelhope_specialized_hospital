@@ -13,9 +13,9 @@ const Slider = () => {
                 src={slider1}
                 alt="First slide"
               />
-              <Carousel.Caption className="pb-5">
-                <h5 className="text-light"style={{fontSize: '60px'}}>Your best care begins at AngelHope</h5>
-                <p className=" text-light" style={{fontSize: '30px', fontWeight: '200'}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <Carousel.Caption className="pb-2">
+                <h5 className="text-light"style={{fontSize: '46px'}}>Your best care begins at AngelHope</h5>
+                <p className=" text-light" style={{fontSize: '16px', fontWeight: '200'}}>Lead clinical trials and train the next generation of clinical leaders. </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -24,9 +24,9 @@ const Slider = () => {
                 src={slider2}
                 alt="Second slide"
               />
-              <Carousel.Caption className="pb-5">
-                <h5 className="text-light"style={{fontSize: '60px'}}>Second slide label</h5>
-                <p className=" text-light" style={{fontSize: '30px', fontWeight: '200', color: '#9ba1ec'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Carousel.Caption className="pb-2">
+                <h5 className="text-light"style={{fontSize: '46px'}}>Specialist Surgeons</h5>
+                <p className=" text-light" style={{fontSize: '16px', fontWeight: '200'}}>Our surgeons are some of the most skilled in the country</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,9 +35,9 @@ const Slider = () => {
                 src={slider3}
                 alt="Third slide"
               />
-              <Carousel.Caption className="pb-5">
-                <h5 className="text-light"style={{fontSize: '60px'}}>Third slide label</h5>
-                <p className=" text-light" style={{fontSize: '30px', fontWeight: '200'}}>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <Carousel.Caption className="pb-2">
+                <h5 className="text-light"style={{fontSize: '46px'}}>Excellent OT facilities</h5>
+                <p className=" text-light" style={{fontSize: '16px', fontWeight: '200'}}>Lead clinical trials and train the next generation of clinical leaders. </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

@@ -12,6 +12,8 @@ import Login from './Pages/Login/Login/Login';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Services from './Pages/Home/Services/Services';
 import Footer from './Pages/Home/Footer/Footer';
+import About from './Pages/About/About';
+import Community from './Pages/Community/Community';
 
 function App() {
   return (
@@ -25,6 +27,12 @@ function App() {
               </Route>
               <Route path="/home">
                 <Home></Home>
+              </Route>
+              <Route path="/community">
+                <Community></Community>
+              </Route>
+              <Route path="/aboutus">
+                <About></About>
               </Route>
               <Route path="/login">
                 <Login></Login>

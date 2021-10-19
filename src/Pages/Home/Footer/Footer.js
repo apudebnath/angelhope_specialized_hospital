@@ -59,14 +59,13 @@ const Footer = () => {
                     <div className="col-md-3 pt-3">
                         <h4 className="">Get Involved</h4>
                         <div className="">
-                            <h6>Contact a Department</h6>
-                            <h6>Your Feedback</h6>
-                            <h6>Contact Media Team</h6>
-                            <h6>Browse FAQs</h6>
-                            <h6>Read Patient Stories</h6>
-                            <h6>Download Our Apps</h6>
-                            <h6>Subscribe to our Newsletter</h6>
-                            <h6>Share Your Experience</h6>
+                            <h6>Contact a Doctor</h6>
+                            <h6>Health Plan</h6>
+                            <h6>Emergency</h6>
+                            <h6>Billing</h6>
+                            <h6>Nondiscrimination</h6>
+                            <h6>Report Broken Links</h6>
+                            <h6>Privecy Policy</h6>
                         </div>
                     </div>
                     <div className="col-md-3 pt-3">

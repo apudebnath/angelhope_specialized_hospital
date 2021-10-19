@@ -94,6 +94,7 @@ const useFirebase = () => {
 
         })
         .finally(() => setIsLoading(false))
+        setUser({})
     }
     const verifyEmail = () => {
         sendEmailVerification(auth.currentUser)
