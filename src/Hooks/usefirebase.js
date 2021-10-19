@@ -15,6 +15,7 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
 
+ // Google LogIN
     const googleSignIn = () => {
         setIsLoading(true)
         signInWithPopup(auth, googleProvider)
@@ -29,6 +30,7 @@ const useFirebase = () => {
         .finally(() => setIsLoading(false))
     }
 
+ // Email Password registration
     const handleRegister = (e) => {
         e.preventDefault();
         setIsLoading(true)
@@ -36,15 +38,12 @@ const useFirebase = () => {
             setError('Password should be at least 6 characters')
             return;
         }
-        if(!/^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{6,}$/.test(password)){
-            setError('Password should be at least 6 characters, with at least a symbol, upper and lower case letters and a number!')
-
-        }
+        
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
             setUser(result.user)
-            console.log(user);
-            setError('')
+            verifyEmail();
+            setError('');
         })
         .catch(error => {
             setError(error.message);
@@ -52,6 +51,7 @@ const useFirebase = () => {
         .finally(() => setIsLoading(false))
     }
 
+ // Email password Login
     const handleLogIn = (e) => {
         e.preventDefault();
         setIsLoading(true)
@@ -87,6 +87,7 @@ const useFirebase = () => {
         return () => unsubscribed;
     } , [])
 
+  // Logout
     const logOut = () => {
         setIsLoading(true)
         signOut(auth)
@@ -96,13 +97,16 @@ const useFirebase = () => {
         .finally(() => setIsLoading(false))
         setUser({})
     }
+
+  // Email verification
     const verifyEmail = () => {
         sendEmailVerification(auth.currentUser)
-        .then(reault => {
+        .then(result => {
 
         })
     }
 
+  // Password verification
     const resetPassword = () => {
         sendPasswordResetEmail(auth, email)
         .then(() => {

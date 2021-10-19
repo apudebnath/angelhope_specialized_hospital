@@ -10,8 +10,8 @@ const Register = () => {
     return (
         <div className="container background">
             <div className="row">
-                <div className="col-md-6 col-12 mt-5 text-center">
-                <h2 className="pt-5">Please Register</h2>
+                <div className="col-md-6 col-12 my-5 text-center">
+                <h2 className="pt-3">Please Register</h2>
                     <Form onSubmit={handleRegister} className="w-75 mx-auto">
                         <Form.Group className="mb-3" controlId="formBasicName">
                           <Form.Control type="text" placeholder="Your Name" required />
@@ -39,7 +39,7 @@ const Register = () => {
                     </Form>
                 </div>
                 <div className="col-md-6 ">
-                    <img className="img-fluid pt-5 w-100" src={image} alt="" />
+                    <img className="img-fluid h-100" style={{objectFit: 'cover'}} src={image} alt="" />
                 </div>
             </div>
         </div>

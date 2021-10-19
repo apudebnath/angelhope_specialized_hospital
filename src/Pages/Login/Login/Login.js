@@ -8,8 +8,8 @@ const Login = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-6 col-12 mt-5 text-center">
-                <h2 className="pb-3">Please Login</h2>
+                <div className="col-md-6 col-12 my-5 text-center">
+                  <h2 className="pb-3">Please Login</h2>
                     <Form onSubmit={handleLogIn} className="w-75 mx-auto">
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                           <Form.Control onBlur={handleEmailChange} type="email" placeholder="Enter email" required/>

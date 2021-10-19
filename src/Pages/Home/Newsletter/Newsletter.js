@@ -9,7 +9,7 @@ import image4 from '../../../images/community4.jpg';
 const Newsletter = () => {
     return (
         <div>
-            <div style={{backgroundImage: `url(${banner})`, backgroundPosition: 'center', height: '300px'}} className="d-flex justify-content-center align-items-center">
+            <div style={{backgroundImage: `url(${banner})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '300px'}} className="d-flex justify-content-center align-items-center">
                 <div className="container text-light">
                     <div className="row">
                         <div className="col-md-6 col-12">

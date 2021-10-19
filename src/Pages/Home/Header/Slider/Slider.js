@@ -25,7 +25,7 @@ const Slider = () => {
                 alt="Second slide"
               />
               <Carousel.Caption className="pb-2">
-                <h5 className="text-light"style={{fontSize: '46px'}}>Specialist Surgeons</h5>
+                <h5 className="text-light"style={{fontSize: '46px'}}>Our Specialist Surgeons</h5>
                 <p className=" text-light" style={{fontSize: '16px', fontWeight: '200'}}>Our surgeons are some of the most skilled in the country</p>
               </Carousel.Caption>
             </Carousel.Item>

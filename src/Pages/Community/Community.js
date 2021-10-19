@@ -10,7 +10,7 @@ import { Button } from 'react-bootstrap';
 const Community = () => {
     return (
         <div>
-            <div className="row" style={{backgroundImage: `url(${banner})`, backgroundPosition: 'center', height: '350px'}}>
+            <div className="row" style={{backgroundImage: `url(${banner})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '350px'}}>
                 <div className="d-flex justify-content-center align-items-center text-light">
                 </div>
             </div>
@@ -58,7 +58,7 @@ const Community = () => {
 
                         AHOC Health (UCLA) is required by the IRS (REG 106499-12) to conduct a Community Health Needs Assessment (CHNA) and adopt an implementation strategy at least once every three (3) years for each of our hospitals - Ronald Reagan UCLA Medical Center; UCLA Santa Monica Medical Center; and Resnick Neuropsychiatric Hospital at UCLA.
                         </p>
-                        <Link to="/aboutus"><Button>Know More</Button></Link>
+                        <Link to="/about"><Button>Know More</Button></Link>
                     </div>
                     <div className="col-md-6">
                         <img className="img-fluid" src={image4} alt=""/>
