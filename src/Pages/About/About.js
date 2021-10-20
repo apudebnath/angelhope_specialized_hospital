@@ -5,7 +5,7 @@ import banner from '../../images/aboutBanner.png';
 import banner2 from '../../images/aboutBanner1.jpg';
 const About = () => {
     return (
-        <div>
+        <div className="container-fluid">
             <div className="row" style={{backgroundImage: `url(${banner})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '300px'}}>
                 <div className="d-flex justify-content-center align-items-center text-light">
                 <h1>About Us</h1>

@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 
 const Community = () => {
     return (
-        <div>
+        <div className="container-fluid">
             <div className="row" style={{backgroundImage: `url(${banner})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '350px'}}>
                 <div className="d-flex justify-content-center align-items-center text-light">
                 </div>
@@ -21,10 +21,10 @@ const Community = () => {
                         <h5>AngelHope Health is more than just a collection of hospitals and clinics. We are an engaged member of our broader community, and we take our responsibility for community service seriously.</h5>
                         <p>Whether expert physicians are providing basic health care to unhoused populations on the streets of Los Angeles, outreach teams are supporting healthier communities through our Sound Body Sound Mind program, or staff are caring for service members injured in war as part Operation Mend, AHOC Health is about serving people with dignity and respect.</p>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-12">
                         <img className="img-fluid" src={image1} alt=""/>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-12">
                         <h2 className="text-warning">What is the AngelHope Office of Community?</h2>
                         <h5>In November 2018, the Office of Community was formed to establish trust in UCLA Health by having a direct on the ground street presence and engaging in equitable and impactful health and wellness initiatives in strategic alignment with internal stakeholders and key community partners.</h5>
                         <p>
@@ -36,10 +36,10 @@ const Community = () => {
                     </div>
                 </div>
                 <div className="row my-5">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-12">
                     <img className="img-fluid" src={image2} alt=""/>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-12">
                         <img className="img-fluid" src={image3} alt=""/>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Community = () => {
                     The Office of Community has expanded their scope beyond just helping the local community. In the fall of 2020, they oversaw global humanitarian outreach efforts as part of UCLA Operation Beirut and AHOC Aid to Armenia. Looking forward, they hope to serve as the glue and connective tissue that brings together all community outreach and engagement efforts across AHOC Health.</p>
                 </div>
                 <div className="row my-5">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-12">
                         <h2 className="text-info">Community Health Needs Assessment and Implementation Strategy</h2>
                         <p>
                         Serving the community is one of our highest priorities. Download our latest community health needs assessments and implementation strategies in PDF format below.
@@ -60,7 +60,7 @@ const Community = () => {
                         </p>
                         <Link to="/about"><Button>Know More</Button></Link>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-12">
                         <img className="img-fluid" src={image4} alt=""/>
                     </div>
                 </div>

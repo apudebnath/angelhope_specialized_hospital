@@ -1,10 +1,7 @@
 import React from 'react';
 import { Button, Col, Form, FormControl, InputGroup, Row } from 'react-bootstrap';
 import banner from '../../../images/newsletter.jpg';
-import image1 from '../../../images/about2.jpg';
-import image2 from '../../../images/community1.jpg';
-import image3 from '../../../images/community2.jpg';
-import image4 from '../../../images/community4.jpg';
+
 
 const Newsletter = () => {
     return (
@@ -34,20 +31,6 @@ const Newsletter = () => {
                     </div>
                 </div>
             </div>
-            <div className="row m-5">
-                    <div className="col-md-3">
-                        <img className="img-fluid border rounded" src={image1} alt=""/>
-                        </div>
-                    <div className="col-md-3">
-                        <img className="img-fluid border rounded" src={image2} alt=""/>
-                    </div>
-                    <div className="col-md-3">
-                        <img className="img-fluid border rounded" src={image3} alt=""/>
-                    </div>
-                    <div className="col-md-3">
-                        <img className="img-fluid border rounded" src={image4} alt=""/>
-                    </div>
-                </div>
         </div>
     );
 };

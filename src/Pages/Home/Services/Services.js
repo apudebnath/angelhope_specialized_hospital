@@ -10,7 +10,7 @@ const Services = () => {
     }, [])
     return (
         <div id="services" className="container"> 
-            <div className=" row text-center justify-content-between my-5">
+            <div className=" row text-center justify-content-around my-5">
                 <h2 className="fs-1">Our Services</h2>
                 <p className="fs-5">The specialized care physicians at AngelHope are here for you in all stages of your life.</p>
                 

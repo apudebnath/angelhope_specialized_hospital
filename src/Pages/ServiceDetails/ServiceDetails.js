@@ -28,12 +28,12 @@ const ServiceDetails = () => {
             <div className="container my-5">
                 <h4 className="pb-3">ServiceDetails : {ServiceId}</h4>
                 <div className="row">
-                    <div className="col-md-6">
-                        <img className="" src={item?.image} alt="" />
+                    <div className="col-md-6 col-12">
+                        <img className="img-fluid" src={item?.image} alt="" />
                         <h4 className="pt-3">Estimated Cost: ${item?.price}</h4>
                         <h3>Review:{item?.review}</h3>
                     </div>
-                    <div className="col-md-6">    
+                    <div className="col-md-6 col-12">    
                         
                         <p>{item?.longDescription}</p>
                         <Button onClick={handleBook}>Book Specialist</Button>

@@ -11,8 +11,8 @@ const tumblr = <FontAwesomeIcon icon={faTumblr} />
 
 const Footer = () => {
     return (
-        <div style={{backgroundColor: 'lightgray'}}>
-            <div  className="container py-3">
+        <div className="container-fluid" style={{backgroundColor: 'lightgray'}}>
+             <div  className="container-fluid py-3">
                 <div className="row">
                     <div className="col-md-3">
                         <div className="d-flex justify-content-center">
@@ -37,7 +37,7 @@ const Footer = () => {
                                 </div>
                                 <div className="ms-3">
                                     <h6>Australia</h6>
-                                    <h6>Franch</h6>
+                                    <h6>France</h6>
                                     <h6>Bangladesh</h6>
                                     <h6>Uk</h6>
                                 </div>
@@ -65,7 +65,7 @@ const Footer = () => {
                             <h6>Billing</h6>
                             <h6>Nondiscrimination</h6>
                             <h6>Report Broken Links</h6>
-                            <h6>Privecy Policy</h6>
+                            <h6>Privacy Policy</h6>
                         </div>
                     </div>
                     <div className="col-md-3 pt-3">
@@ -83,10 +83,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-                <div className="row text-center text-light" style={{backgroundColor: 'gray'}}>
-                    <hr />
-                    <p>Copyright &copy; 2021 || All right reserved by AngelHope Specialized Hospital</p>
-                </div>
+            <div className="row text-center text-light" style={{backgroundColor: 'gray'}}>
+                <hr />
+                <p>Copyright &copy; 2021 || All right reserved by AngelHope Specialized Hospital</p>
+            </div> 
         </div>
     );    
 };    

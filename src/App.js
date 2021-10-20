@@ -17,7 +17,7 @@ import Community from './Pages/Community/Community';
 
 function App() {
   return (
-    <div className="">
+    <div className="container-fluid m-0 p-0">
       <AuthProvider>
         <BrowserRouter>
           <Navigation></Navigation>
