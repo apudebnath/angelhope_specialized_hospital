@@ -51,7 +51,7 @@ const Community = () => {
                     The Office of Community has expanded their scope beyond just helping the local community. In the fall of 2020, they oversaw global humanitarian outreach efforts as part of UCLA Operation Beirut and AHOC Aid to Armenia. Looking forward, they hope to serve as the glue and connective tissue that brings together all community outreach and engagement efforts across AHOC Health.</p>
                 </div>
                 <div className="row my-5">
-                    <div className="col-md-6 col-12">
+                    <div className="col-md-6 col-12 pb-3">
                         <h2 className="text-info">Community Health Needs Assessment and Implementation Strategy</h2>
                         <p>
                         Serving the community is one of our highest priorities. Download our latest community health needs assessments and implementation strategies in PDF format below.
